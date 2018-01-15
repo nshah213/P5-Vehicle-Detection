@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [image6]: ./output_images/Vehicle_detection_pipeline41.png
 [image7]: ./output_images/Vehicle_detection_pipeline2.png
 [image8]: ./output_images/Vehicle_detection_pipeline0.png
-[video1]: ./project_video.mp4
+
 
 ## Classifier
 
@@ -70,7 +70,7 @@ Here is the performance of the pipeline with 1/3 rd the number of scales used an
 ### Video Implementation
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
-Here's a [link to my video result](./results/results4_1.mp4)
+Here's a [link to my video result](./Results/results4_1.mp4)
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
 
