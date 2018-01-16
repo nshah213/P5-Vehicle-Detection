@@ -96,5 +96,5 @@ Here's an example result showing the heatmap from a series of frames of video, t
 1. Biggest concern is it is far from running real time. Need to understand methods for software and hardware optimizations to allow real time performance.
 2. Classifier is using basic HOG on 1 channel only, HOG on all 3 channels of YCrCb will be beneficial. Selecting more features and running decision tree to select the features with the most information will help a lot.
 3. Some current false positives especially on edges of the search frame will be reduced if we look at more spatial features along with HOG to help our classifier.
+4. Implementing a decision tree to select the most important features from the list of features will help in selecting which feature vectors have the maximum information content and using only selected features will help in reducing the decision time per window. It will also help us select from a wide range of possible feaatures the ones that are the most important, rather than just relying on HOG features calculated on one channel alone.
 
-4. Training SVC with gridSearch is cumbersome, but performance on well selceted grid range i
